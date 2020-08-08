@@ -1,0 +1,111 @@
+/*
+/* let's get started min width and max width mixed responsive issue
+*/
+@media (min-width:1200px) and (max-width:1500px) {
+}
+@media (min-width:992px) and (max-width:1199px) {
+}
+@media (min-width:768px) and (max-width:991px) {
+ body {
+  background-color: #211e43;
+ }
+}
+@media (max-width:960px) { /* only for responsive navigation */
+ body {
+  background-color: #211e43;
+ }
+ .slider-content h1 {
+	font-size: 36px;
+ }
+ .about-area p {
+	text-align: justify;
+ }
+ .single-info {
+  margin-bottom: 30px;
+  text-align: center;
+ }
+ .footer-menu {
+	text-align: left !important;
+	margin-top: 5px;
+ }
+ .footer-widget h3 {
+	margin-bottom: 30px;
+	margin-top: 50px;
+ }
+ .service-active .slick-dots {
+	left: 0;
+	right: 0;
+	text-align: center;
+ }
+ .video-wrapper h1 {
+	font-size: 36px;
+	color: #fff;
+	padding-right: 0px;
+ }
+ .parallax {
+	min-height: 300px;
+ }
+ .video-wrapper:first-child a{
+  display:block;
+ }
+ .video-wrapper a {
+  display: block;
+  padding: 19px 15px;
+ }
+ .consaltation-form {
+	margin: 0;
+	padding: 15px;
+ }
+ .single-blog {
+	display: flow-root;
+ }
+ .blog-img {
+	margin-bottom: 30px;
+ }
+ .blog-img img {
+	width: 100%;
+ }
+ .copywrite p {
+	text-align: center;
+ }
+ .footer-menu ul li {
+	display: flow-root;
+	margin-bottom: 7px;
+	text-align: center;
+ }
+} 
+
+@media (min-width:400px) and (max-width:539px) {
+ body {
+  background-color: #536571;
+ }
+}   
+
+
+
+/* device responsive width */
+@media (min-width:400px) {
+  .container {
+  max-width:370px
+  }
+} 
+@media (min-width:576px) {
+  .container {
+  max-width:540px
+  }
+}
+@media (min-width:768px) {
+  .container {
+  max-width:720px
+  }
+}
+@media (min-width:992px) {
+  .container {
+  max-width:960px
+  }
+}
+@media (min-width:1200px) {
+.container {
+  max-width:1170px
+  }
+}
